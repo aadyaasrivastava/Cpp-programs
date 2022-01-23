@@ -1,0 +1,20 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+
+int main(){
+    char ch;
+    cin>>ch;
+    
+    if( ch > 'a'&& ch <'z'){
+        cout<<ch<<" "<< "Is lower case"<<endl;
+    }
+    else if(ch > '0' && ch < '9'){
+        cout<<ch<<" "<<"is a number"<<endl;
+
+    }
+    else{
+        cout<<ch<<" "<<"is uppercase alphabet";
+    }
+return 0;
+}
